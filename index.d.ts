@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2026 The Stdlib Authors.
@@ -16,28 +16,35 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
+
+import { complex128ndarray } from '@stdlib/types/ndarray';
 
 /**
-* Fill a one-dimensional double-precision complex floating-point ndarray with linearly spaced numeric elements which increment by `1` starting from zero.
+* Fills a one-dimensional double-precision complex floating-point ndarray with linearly spaced numeric elements which increment by `1` starting from zero.
 *
-* @module @stdlib/blas-ext-base-ndarray-zzero-to
+* ## Notes
+*
+* -   The function expects the following ndarrays:
+*
+*     -   a one-dimensional input ndarray.
+*
+* @param arrays - array-like object containing ndarrays
+* @returns input ndarray
 *
 * @example
 * var Complex128Vector = require( '@stdlib/ndarray-vector-complex128' );
-* var zzeroTo = require( '@stdlib/blas-ext-base-ndarray-zzero-to' );
 *
 * var x = new Complex128Vector( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
 *
 * var out = zzeroTo( [ x ] );
 * // returns <ndarray>[ <Complex128>[ 0.0, 0.0 ], <Complex128>[ 1.0, 0.0 ], <Complex128>[ 2.0, 0.0 ], <Complex128>[ 3.0, 0.0 ] ]
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function zzeroTo( arrays: [ complex128ndarray ] ): complex128ndarray;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = zzeroTo;
