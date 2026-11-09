@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-23)
+## Unreleased (2026-11-09)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`78ad2fa`](https://github.com/stdlib-js/stdlib/commit/78ad2fa5dbb12ce808dec93197d5343745ff91b8) - **docs:** normalize trailing newlines in REPL help texts [(#16420)](https://github.com/stdlib-js/stdlib/pull/16420) _(by Philipp Burckhardt)_
 -   [`9760dc1`](https://github.com/stdlib-js/stdlib/commit/9760dc1bd14a5b869b01405f955b06dc242a034c) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
 -   [`8b19d00`](https://github.com/stdlib-js/stdlib/commit/8b19d00b71edcd61143c31573eab59cfc6936ab4) - **feat:** add `blas/ext/base/ndarray/zzero-to` [(#11263)](https://github.com/stdlib-js/stdlib/pull/11263) _(by Muhammad Haris)_
 
@@ -35,10 +36,11 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Muhammad Haris
+-   Philipp Burckhardt
 
 </section>
 
